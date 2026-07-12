@@ -1,0 +1,70 @@
+# ספורט90 — Generative Engine Optimization Map
+
+> אז אני יכוןל לעשות את זה כאתר
+
+---
+
+## Pages
+
+### בית
+https://90-72db6867.zappy5.app
+ספורט90 מביא לכם את כל האקשן בזמן אמת: תוצאות בלייב, עדכוני כדורגל חמים וניתוחים שלא תרצו לפספס. היכנסו עכשיו ותישארו בלב המשחק!
+
+### תודה - ספורט90
+https://90-72db6867.zappy5.app/thank-you
+ספורט90 - תודה - ספורט90
+
+## Legal & Policy
+
+### Privacy Policy
+https://90-72db6867.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://90-72db6867.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://90-72db6867.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://90-72db6867.zappy5.app
+- Endpoint: https://90-72db6867.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About ספורט90
+אז אני יכוןל לעשות את זה כאתר
+
+## Target Audience
+- חובבי ספורט נלהבים
+- חובבי כושר
+- הורים לספורטאים צעירים
+
+## Industry
+General
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://90-72db6867.zappy5.app/sitemap.xml
+- Robots: https://90-72db6867.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://90-72db6867.zappy5.app/llms-full.txt
