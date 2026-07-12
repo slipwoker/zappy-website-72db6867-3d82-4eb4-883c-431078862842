@@ -5718,6 +5718,251 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 0.78rem;
   }
 }
+
+/* AI-generated section */
+.snf-newsfeed {
+  background: #111318;
+  padding: 80px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  color: #ffffff;
+}
+
+.snf-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.snf-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.snf-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 12px 0;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+}
+
+.snf-subtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.snf-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.snf-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.snf-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 212, 255, 0.1), 0 4px 12px rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 212, 255, 0.3);
+}
+
+.snf-card-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.snf-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.snf-card:hover .snf-card-img {
+  transform: scale(1.05);
+}
+
+.snf-tag {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #111318;
+  z-index: 2;
+  letter-spacing: 0.3px;
+}
+
+.snf-tag--football {
+  background: #B8FF2C;
+}
+
+.snf-tag--basketball {
+  background: #FF6B35;
+}
+
+.snf-tag--tennis {
+  background: #00D4FF;
+}
+
+.snf-tag--athletics {
+  background: #FFD700;
+}
+
+.snf-tag--israeli {
+  background: #4D9DE0;
+}
+
+.snf-card-body {
+  padding: 20px 22px 22px 22px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.snf-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 10px 0;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.snf-card-summary {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 16px 0;
+  line-height: 1.6;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.snf-card-date {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.35);
+  display: block;
+}
+
+.snf-cta-wrapper {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.snf-cta-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  color: #00D4FF;
+  border: 2px solid #00D4FF;
+  border-radius: 40px;
+  padding: 14px 36px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: system-ui, sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.snf-cta-button:hover {
+  background: #00D4FF;
+  color: #111318;
+  box-shadow: 0 6px 24px rgba(0, 212, 255, 0.35);
+  transform: translateY(-2px);
+}
+
+.snf-cta-button:focus-visible {
+  outline: 3px solid #B8FF2C;
+  outline-offset: 3px;
+}
+
+.snf-cta-icon {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .snf-newsfeed {
+    padding: 60px 16px;
+  }
+
+  .snf-title {
+    font-size: 1.8rem;
+  }
+
+  .snf-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .snf-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .snf-card-image {
+    height: 180px;
+  }
+
+  .snf-card-body {
+    padding: 16px 18px 18px 18px;
+  }
+
+  .snf-card-title {
+    font-size: 1.05rem;
+  }
+
+  .snf-card-summary {
+    font-size: 0.85rem;
+  }
+
+  .snf-cta-button {
+    padding: 12px 30px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .snf-title {
+    font-size: 1.5rem;
+  }
+
+  .snf-card-image {
+    height: 160px;
+  }
+
+  .snf-tag {
+    font-size: 0.72rem;
+    padding: 5px 10px;
+    top: 10px;
+    right: 10px;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
