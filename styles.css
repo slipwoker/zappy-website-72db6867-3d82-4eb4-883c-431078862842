@@ -5372,6 +5372,352 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+
+/* AI-generated section */
+.top50-section {
+  background: #111318;
+  padding: 80px 20px 60px;
+  font-family: system-ui, sans-serif;
+  color: #ffffff;
+  direction: rtl;
+  min-height: 100vh;
+}
+
+.top50-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.top50-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.top50-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 16px;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.top50-subtitle {
+  font-size: 1.15rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Tabs */
+.top50-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+}
+
+.top50-tab {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: system-ui, sans-serif;
+  white-space: nowrap;
+}
+
+.top50-tab:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(0, 212, 255, 0.4);
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 212, 255, 0.15);
+}
+
+.top50-tab.active {
+  background: rgba(0, 212, 255, 0.12);
+  border-color: #00D4FF;
+  color: #00D4FF;
+  box-shadow: 0 0 24px rgba(0, 212, 255, 0.25), inset 0 0 12px rgba(0, 212, 255, 0.08);
+}
+
+.tab-icon {
+  font-size: 1.3rem;
+}
+
+/* Panels */
+.top50-panels {
+  position: relative;
+}
+
+.top50-panel {
+  display: none;
+  animation: fadeSlideIn 0.4s ease;
+}
+
+.top50-panel.active {
+  display: block;
+}
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Table Wrapper */
+.top50-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.02);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 212, 255, 0.3) rgba(255, 255, 255, 0.05);
+}
+
+.top50-table-wrapper::-webkit-scrollbar {
+  height: 6px;
+}
+
+.top50-table-wrapper::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.top50-table-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.3);
+  border-radius: 3px;
+}
+
+/* Table */
+.top50-table {
+  width: 100%;
+  min-width: 700px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.top50-table thead th {
+  background: rgba(0, 212, 255, 0.08);
+  color: #00D4FF;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 16px 14px;
+  text-align: center;
+  border-bottom: 2px solid rgba(0, 212, 255, 0.2);
+  white-space: nowrap;
+}
+
+.top50-table thead th.col-player {
+  text-align: right;
+}
+
+.top50-table thead th.col-team {
+  text-align: right;
+}
+
+.top50-table thead th.col-nation {
+  text-align: right;
+}
+
+/* Table Body */
+.top50-table tbody td {
+  padding: 14px 14px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.85);
+  transition: background 0.2s ease;
+  white-space: nowrap;
+}
+
+.top50-table tbody td.col-player,
+.top50-table tbody td.col-team,
+.top50-table tbody td.col-nation {
+  text-align: right;
+}
+
+.top50-table tbody tr {
+  transition: all 0.2s ease;
+}
+
+.top50-table tbody tr:hover {
+  background: rgba(0, 212, 255, 0.06);
+}
+
+.top50-table tbody tr:hover td {
+  color: #ffffff;
+}
+
+/* Rank Column Styling */
+.col-rank {
+  width: 60px;
+  font-weight: 700;
+}
+
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.rank-gold {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  color: #1a1a1a;
+  box-shadow: 0 0 16px rgba(255, 215, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+}
+
+.rank-silver {
+  background: linear-gradient(135deg, #C0C0C0, #A0A0A0);
+  color: #1a1a1a;
+  box-shadow: 0 0 12px rgba(192, 192, 192, 0.4);
+  width: 38px;
+  height: 38px;
+  font-size: 0.95rem;
+}
+
+.rank-bronze {
+  background: linear-gradient(135deg, #CD7F32, #A0522D);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(205, 127, 50, 0.4);
+  width: 38px;
+  height: 38px;
+  font-size: 0.95rem;
+}
+
+/* Player name styling */
+.player-name {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Stat highlight */
+.stat-value {
+  font-weight: 700;
+  color: #B8FF2C;
+  font-size: 1rem;
+}
+
+/* Footer */
+.top50-footer {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.top50-updated {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0;
+}
+
+.top50-updated span {
+  color: rgba(255, 255, 255, 0.65);
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .top50-section {
+    padding: 50px 12px 40px;
+  }
+
+  .top50-title {
+    font-size: 2rem;
+  }
+
+  .top50-subtitle {
+    font-size: 1rem;
+  }
+
+  .top50-tab {
+    padding: 12px 22px;
+    font-size: 1rem;
+    gap: 6px;
+  }
+
+  .top50-table {
+    min-width: 600px;
+    font-size: 0.85rem;
+  }
+
+  .top50-table thead th {
+    padding: 12px 8px;
+    font-size: 0.78rem;
+  }
+
+  .top50-table tbody td {
+    padding: 10px 8px;
+  }
+
+  .rank-badge {
+    width: 30px;
+    height: 30px;
+    font-size: 0.78rem;
+  }
+
+  .rank-gold {
+    width: 34px;
+    height: 34px;
+    font-size: 0.85rem;
+  }
+
+  .rank-silver,
+  .rank-bronze {
+    width: 32px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top50-title {
+    font-size: 1.6rem;
+  }
+
+  .top50-tabs {
+    gap: 8px;
+  }
+
+  .top50-tab {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+
+  .top50-table {
+    min-width: 520px;
+    font-size: 0.78rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,

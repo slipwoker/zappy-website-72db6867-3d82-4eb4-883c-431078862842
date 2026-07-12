@@ -1135,6 +1135,70 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
 </section>
 
+<section class="top50-section" dir="rtl" aria-labelledby="top50-title">
+  <div class="top50-container">
+    <header class="top50-header">
+      <h2 id="top50-title" class="top50-title">טופ 50 השחקנים הטובים בעולם</h2>
+      <p class="top50-subtitle">בחרו קטגוריה וגלו מי השחקנים המובילים בכדורסל ובכדורגל – מתעדכן באופן שוטף</p>
+    </header>
+
+    <div class="top50-tabs" role="tablist" aria-label="קטגוריות ספורט">
+      <button class="top50-tab active" role="tab" aria-selected="true" aria-controls="panel-basketball" id="tab-basketball" data-tab="basketball">
+        <span class="tab-icon">🏀</span>
+        <span>כדורסל</span>
+      </button>
+      <button class="top50-tab" role="tab" aria-selected="false" aria-controls="panel-football" id="tab-football" data-tab="football">
+        <span class="tab-icon">⚽</span>
+        <span>כדורגל</span>
+      </button>
+    </div>
+
+    <div class="top50-panels">
+      <div class="top50-panel active" id="panel-basketball" role="tabpanel" aria-labelledby="tab-basketball">
+        <div class="top50-table-wrapper">
+          <table class="top50-table">
+            <thead>
+              <tr>
+                <th class="col-rank">#</th>
+                <th class="col-player">שחקן</th>
+                <th class="col-team">קבוצה</th>
+                <th class="col-nation">לאום</th>
+                <th class="col-stat">נק' למשחק</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-basketball">
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="top50-panel" id="panel-football" role="tabpanel" aria-labelledby="tab-football">
+        <div class="top50-table-wrapper">
+          <table class="top50-table">
+            <thead>
+              <tr>
+                <th class="col-rank">#</th>
+                <th class="col-player">שחקן</th>
+                <th class="col-team">קבוצה</th>
+                <th class="col-nation">לאום</th>
+                <th class="col-stat">שערים</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-football">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="top50-footer">
+      <p class="top50-updated">עודכן לאחרונה: <span id="top50-date"></span></p>
+    </div>
+  </div>
+</section>
+
+
+
 <section data-band-index="4" id="testimonials" class="index-testimonials-section" data-layout-spec="בית-testimonials">
   <div class="index-testimonials-section__container">
     <header class="index-testimonials-section__header">
